@@ -16,7 +16,8 @@ class DatabaseSeeder extends Seeder
         $this->call([
             FoodMenuSeeder::class,
             SpecialDishesSeeder::class,
-            TestimonialSeeder::class
+            TestimonialSeeder::class,
+            SettingSeeder::class,
         ]);
     }
 }

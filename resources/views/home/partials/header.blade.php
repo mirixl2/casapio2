@@ -4,7 +4,7 @@
 	  <div class="mx-4 lg:flex lg:items-center">
 	    <div class="flex items-center justify-between">
 	      <div class="lg:shrink-0">
-	        <a href="{{ route('index') }}"><img src="assets/images/logo/logo.png" alt="logo" class="h-auto lg:m-0 lg:p-2 m-auto max-w-[100px] min-w-[90px] px-2 py-2" /></a>
+                <a href="{{ route('index') }}"><img src="/{{ \App\Models\Setting::where('key','site_logo')->value('value') }}" alt="logo" class="h-auto lg:m-0 lg:p-2 m-auto max-w-[100px] min-w-[90px] px-2 py-2" /></a>
 	      </div>
 	      <div class="nav-ham p-4 lg:hidden cursor-pointer transition ease-in-out duration-75 open">
 	      	@foreach ([1, 2, 3] as $data)

@@ -71,5 +71,11 @@
         <i class="fa-solid fa-star-half-stroke menu-icon"></i>
       </a>
     </li>
+    <li class="nav-item">
+      <a class="nav-link" href="{{ route('settings.edit')}}">
+        <span class="menu-title">Settings</span>
+        <i class="fa-solid fa-gear menu-icon"></i>
+      </a>
+    </li>
   </ul>
 </nav>
