@@ -11,7 +11,7 @@
 	      </p>
 	    </div>
 	    <div class="single-widget single-widget2 leading-loose p-5 pr-7">
-	      <h5 class="mb-2 font-bold font-cursive-merie text-lg capitalize text-amber-400">contact us</h5>
+              <h5 class="mb-2 font-bold font-cursive-merie text-lg capitalize text-amber-400">contáctanos</h5>
 	      <div class="flex items-start">
 	        <i class="fa fa-map-marker pr-3 pl-1 pt-2.5"></i>
 	        <p>
@@ -30,7 +30,7 @@
 	      </div>
 	    </div>
 	    <div class="single-widget single-widget3 leading-loose p-5 justify-self-end">
-	      <h5 class="mb-2 font-bold font-cursive-merie text-lg capitalize text-amber-400">opening hours</h5>
+              <h5 class="mb-2 font-bold font-cursive-merie text-lg capitalize text-amber-400">horario</h5>
 	      <p>Monday ...................... Closed</p>
 	      <p>Tue-Fri .............. 10 am - 12 pm</p>
 	      <p>Sat-Sun ............... 8 am - 11 pm</p>
@@ -48,7 +48,7 @@
 	        <a class="text-cyan-400" href="https://colorlib.com/wp/template/foodfun/" target="_blank">Colorlib</a>
 	      </span>
 	      <ul class="social-icons flex flex-wrap my-3 mx-5 transition ease-in-out duration-300">
-	        <li class="mr-4 my-1">Follow Us:</li>
+                <li class="mr-4 my-1">Síguenos:</li>
 	        <li class="mr-3 my-1 cursor-pointer border border-transparent hover:border-white hover:rounded-[50%] px-1">
 	          <a href="#" class="cursor-pointer"><i class="fa-brands fa-facebook"></i></a>
 	        </li>
