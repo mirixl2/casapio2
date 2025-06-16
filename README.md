@@ -1,23 +1,22 @@
 <br>
 <p align="left"><a href="https://foodfun-asraf2asif.000webhostapp.com" target="_blank"><img src="https://raw.githubusercontent.com/Asraf2asif/restaurant-site-laravel/master/public/assets/images/logo/logo2.png" width="300"></a></p>
 
-## Foodfun-Restaurant Site PHP Laravel Portfolio Project
+## Foodfun - Sitio web de restaurante PHP Laravel para portafolio
 
-A responsive, modern PHP-Laravel restaurant site with an admin dashboard with a content control 
-system (CURD). It's a Tailwind-styled page and PostCSS plugin used for maximum browser compatibility. Its clean, responsible, and material design will be further improved.
+Un sitio de restaurante en PHP-Laravel moderno y responsivo que cuenta con un panel de administración y sistema de control de contenido (CRUD). Usa Tailwind y PostCSS para una máxima compatibilidad entre navegadores. Su diseño limpio y responsivo se seguirá mejorando.
 
-### Its features:
+### Características
 
-- Simple, clean, attractive UI.
-- Responsive, compatible to all major browser and version.
-- Admin dashboad and admin control.
-- Guest Login.
-- Reusable, clever, best-practice coding.
-- and more...
+- Interfaz simple, limpia y atractiva.
+- Responsive y compatible con los principales navegadores y versiones.
+- Panel de administración y control para el administrador.
+- Inicio de sesión de invitado.
+- Código reutilizable y siguiendo buenas prácticas.
+- y más...
 
-### Foundation Technology
+### Tecnologías base
 
-- UI/UX Design
+- Diseño UI/UX
 - HTML5
 - Tailwind
 - PostCSS
@@ -26,51 +25,51 @@ system (CURD). It's a Tailwind-styled page and PostCSS plugin used for maximum b
 - Laravel
 - jQuery
 
-## Live URL
+## URL en vivo
 [foodfun-asraf2asif.000webhostapp.com](https://foodfun-asraf2asif.000webhostapp.com)
 
-## Credit
-- Design Inspiration - [colorlib](https://colorlib.com/wp/template/foodfun/)
-- Image from - [unsplash](https://unsplash.com/)
+## Créditos
+- Inspiración de diseño - [colorlib](https://colorlib.com/wp/template/foodfun/)
+- Imágenes de - [unsplash](https://unsplash.com/)
 
-## Author & copyright
+## Autor y copyright
 
-This project is owned by [Asraf2asif](https://github.com/Asraf2asif) for this [portfolio](https://asraf2asif-portfolio.vercel.app/)
+Este proyecto pertenece a [Asraf2asif](https://github.com/Asraf2asif) para este [portafolio](https://asraf2asif-portfolio.vercel.app/)
 
-## Screenshot
+## Capturas
 
-### Home banner
-<img src="https://raw.githubusercontent.com/Asraf2asif/restaurant-site-laravel/master/Screenshot/01%20-%20Home%20banner.png" width="100%" height="auto">
+### Banner principal
+![Banner](https://raw.githubusercontent.com/Asraf2asif/restaurant-site-laravel/master/Screenshot/01%20-%20Home%20banner.png)
 
-### Welcome section
-<img src="https://raw.githubusercontent.com/Asraf2asif/restaurant-site-laravel/master/Screenshot/02%20-%20Welcome%20section.png" width="100%" height="auto">
+### Sección de bienvenida
+![Bienvenida](https://raw.githubusercontent.com/Asraf2asif/restaurant-site-laravel/master/Screenshot/02%20-%20Welcome%20section.png)
 
-### Food menu section
-<img src="https://raw.githubusercontent.com/Asraf2asif/restaurant-site-laravel/master/Screenshot/03%20-%20Food%20menu%20section.png" width="100%" height="auto">
+### Menú de comida
+![Menú](https://raw.githubusercontent.com/Asraf2asif/restaurant-site-laravel/master/Screenshot/03%20-%20Food%20menu%20section.png)
 
-### Testimonial section
-<img src="https://raw.githubusercontent.com/Asraf2asif/restaurant-site-laravel/master/Screenshot/04%20-%20Testimonial%20section.png" width="100%" height="auto">
+### Sección de testimonios
+![Testimonios](https://raw.githubusercontent.com/Asraf2asif/restaurant-site-laravel/master/Screenshot/04%20-%20Testimonial%20section.png)
 
-### Special menu section
-<img src="https://raw.githubusercontent.com/Asraf2asif/restaurant-site-laravel/master/Screenshot/05%20-%20Special%20menu%20section.png" width="100%" height="auto">
+### Menú especial
+![Especial](https://raw.githubusercontent.com/Asraf2asif/restaurant-site-laravel/master/Screenshot/05%20-%20Special%20menu%20section.png)
 
-### Booking section
-<img src="https://raw.githubusercontent.com/Asraf2asif/restaurant-site-laravel/master/Screenshot/06%20-%20Booking%20section.png" width="100%" height="auto">
+### Reservaciones
+![Reservaciones](https://raw.githubusercontent.com/Asraf2asif/restaurant-site-laravel/master/Screenshot/06%20-%20Booking%20section.png)
 
-### Footer
-<img src="https://raw.githubusercontent.com/Asraf2asif/restaurant-site-laravel/master/Screenshot/07%20-%20Footer.png" width="100%" height="auto">
+### Pie de página
+![Footer](https://raw.githubusercontent.com/Asraf2asif/restaurant-site-laravel/master/Screenshot/07%20-%20Footer.png)
 
-### Simple admin dashboard
-<img src="https://raw.githubusercontent.com/Asraf2asif/restaurant-site-laravel/master/Screenshot/08%20-%20Simple%20admin%20dashboard.png" width="100%" height="auto">
+### Panel de administración simple
+![Admin](https://raw.githubusercontent.com/Asraf2asif/restaurant-site-laravel/master/Screenshot/08%20-%20Simple%20admin%20dashboard.png)
 
-### Guest user restrictions
-<img src="https://raw.githubusercontent.com/Asraf2asif/restaurant-site-laravel/master/Screenshot/09%20-%20Guest%20user%20restrictions.png" width="100%" height="auto">
+### Restricciones para usuarios invitados
+![Restricciones](https://raw.githubusercontent.com/Asraf2asif/restaurant-site-laravel/master/Screenshot/09%20-%20Guest%20user%20restrictions.png)
 
-### Food menu admin table
-<img src="https://raw.githubusercontent.com/Asraf2asif/restaurant-site-laravel/master/Screenshot/10%20-%20Food%20menu%20admin%20table.png" width="100%" height="auto">
+### Tabla del menú de comida en el administrador
+![Tabla](https://raw.githubusercontent.com/Asraf2asif/restaurant-site-laravel/master/Screenshot/10%20-%20Food%20menu%20admin%20table.png)
 
-### Data add form
-<img src="https://raw.githubusercontent.com/Asraf2asif/restaurant-site-laravel/master/Screenshot/11-%20Data%20add%20form.png" width="100%" height="auto">
+### Formulario para añadir datos
+![Agregar datos](https://raw.githubusercontent.com/Asraf2asif/restaurant-site-laravel/master/Screenshot/11-%20Data%20add%20form.png)
 
-### Data edit form
-<img src="https://raw.githubusercontent.com/Asraf2asif/restaurant-site-laravel/master/Screenshot/12%20-%20Data%20edit%20form.png" width="100%" height="auto">
+### Formulario para editar datos
+![Editar datos](https://raw.githubusercontent.com/Asraf2asif/restaurant-site-laravel/master/Screenshot/12%20-%20Data%20edit%20form.png)
