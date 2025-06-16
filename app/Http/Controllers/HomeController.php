@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Auth;
 use App\Models\Food;
 use App\Models\Specialdishes;
 use App\Models\Testimonial;
+use App\Models\Dailymenu;
 
 
 class HomeController extends Controller
@@ -19,6 +20,7 @@ class HomeController extends Controller
         ["text" => "inicio", "href" => "#home"],
         ["text" => "sobre", "href" => "#about"],
         ["text" => "menú", "href" => "#menu"],
+        ["text" => "menú del día", "href" => "#dailymenu"],
         ["text" => "opiniones", "href" => "#testimonial"],
         ["text" => "reservar", "href" => "#book"],
         ["text" => "contacto", "href" => "#contact"],
@@ -33,8 +35,9 @@ class HomeController extends Controller
     {
         $navdata = $this->navdata;
         $fooddata = food::all();
+        $dailymenudata = Dailymenu::all();
         $dishesdata = specialdishes::all();
         $testimonialdata = testimonial::all();
-        return view("home.index", compact('navdata', 'fooddata', 'dishesdata', 'testimonialdata'));
+        return view("home.index", compact('navdata', 'fooddata', 'dailymenudata', 'dishesdata', 'testimonialdata'));
     }
 }

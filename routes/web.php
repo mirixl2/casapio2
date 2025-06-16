@@ -6,6 +6,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ReservationController;
 use App\Http\Controllers\FoodMenuController;
+use App\Http\Controllers\DailyMenuController;
 use App\Http\Controllers\SpecialDishController;
 use App\Http\Controllers\TestimonialController;
 
@@ -42,6 +43,11 @@ Route::resource('reservation', ReservationController::class)->only([
 
 /* Food Menu */
 Route::resource('foodmenu', FoodMenuController::class)->only([
+    'index', 'create', 'store', 'edit', 'update', 'destroy'
+]);
+
+/* Daily Menu */
+Route::resource('dailymenu', DailyMenuController::class)->only([
     'index', 'create', 'store', 'edit', 'update', 'destroy'
 ]);
 
