@@ -8,7 +8,9 @@
     @include("home.partials.header", ['navdata' => $navdata])     
     @include("home.partials.banner", ['bannerImg' => 'assets/images/banner-bg.jpg'])
     @include("home.partials.welcome")
-    @include("home.partials.food", ['fooddata' => $fooddata, 'foodBg' => 'assets/images/food-bg.png']) 
+    @include("home.partials.food", ['fooddata' => $fooddata, 'foodBg' => 'assets/images/food-bg.png'])
+
+    @include("home.partials.dailymenu", ['dailymenudata' => $dailymenudata])
 
     @include("home.partials.testimonial", ['testimonialdata' => $testimonialdata, 'quoteImg' => 'assets/images/quote.png'])
     @include("home.partials.deshes", ['dishesdata' => $dishesdata])

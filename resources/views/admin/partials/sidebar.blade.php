@@ -43,8 +43,14 @@
     </li>
     <li class="nav-item">
       <a class="nav-link" href="{{ route('foodmenu.index')}}">
-        <span class="menu-title">Food Menu</span>        
+        <span class="menu-title">Food Menu</span>
         <i class="fa-solid fa-bowl-rice menu-icon"></i>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="{{ route('dailymenu.index')}}">
+        <span class="menu-title">Daily Menu</span>
+        <i class="fa-solid fa-calendar-day menu-icon"></i>
       </a>
     </li>
     <li class="nav-item">
