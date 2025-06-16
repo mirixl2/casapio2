@@ -17,7 +17,7 @@ class SpecialDishController extends Controller
      */
     public function GetIsAdmin()
     {
-        return Auth::id() && Auth::user()->usertype = "1" ? true : false;
+        return Auth::id() && Auth::user()->usertype == "1" ? true : false;
     }
 
     /**

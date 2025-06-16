@@ -17,7 +17,7 @@ class AdminController extends Controller
      */
     private function GetIsAdmin()
     {
-        return Auth::id() && Auth::user()->usertype = "1" ? true : false;
+        return Auth::id() && Auth::user()->usertype == "1" ? true : false;
     }
 
     /**
