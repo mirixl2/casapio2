@@ -6,6 +6,12 @@
 
         <x-jet-validation-errors class="mb-4" />
 
+        @if (session('first_admin'))
+            <div class="mb-4 font-medium text-sm text-green-600">
+                {{ __('Create the administrator account to start using the site.') }}
+            </div>
+        @endif
+
         <form method="POST" action="{{ route('register') }}">
             @csrf
 
