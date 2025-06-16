@@ -3,16 +3,19 @@
 		<div class="col-lg-12 grid-margin stretch-card">
 			<div class="card">
 				<div class="card-body">
-					<h4 class="card-title">Reservation Data-Table</h4>					
-					<p class="card-description">
-						Reservation information table 
-					</p>
+                                        <h4 class="card-title">Reservation Data-Table</h4>
+                                        <p class="card-description">
+                                                Reservation information table
+                                        </p>
+                                        @if(session()->has('msg'))
+                                        <p class="alert alert-info">{{ session()->get('msg') }}</p>
+                                        @endif
 					<table class="table table-hover overflow-auto block">
 						<thead>
 							<tr class="bg-slate-800">
-								@foreach(["Name", "Phone number", "Date", "Time", "Person", "Created at"] as $heading)
-									<th class="font-bold text-white">{{$heading}}</th>
-								@endforeach
+                                                                @foreach(["Name", "Phone number", "Date", "Time", "Person", "Created at", ""] as $heading)
+                                                                        <th class="font-bold text-white">{{$heading}}</th>
+                                                                @endforeach
 							</tr>
 						</thead>
 						<tbody>
@@ -33,7 +36,8 @@
 									<td>{{$data->date}}</td>								
 									<td>{{$data->time}}</td>								
 									<td>{{$data->person}}</td>
-									<td>{{$data->created_at}}</td>
+                                                                        <td>{{$data->created_at}}</td>
+                                                                        <td><a href="{{ route('reservation.edit', $data->id) }}" class="badge badge-primary cursor-pointer">Edit</a></td>
 								</tr>
 								@endforeach
 							@endif

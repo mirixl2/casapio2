@@ -52,4 +52,44 @@ class ReservationController extends Controller
         
         return redirect()->back()->with('msg', 'Reservation made successfully');
     }
+
+    /**
+     * Show the form for editing the specified reservation entry.
+     *
+     * @param  $reservation->id
+     * @return \Illuminate\Http\Response
+     */
+    public function edit($reservation)
+    {
+        $data = reservation::findOrFail($reservation);
+        $user = Auth::id() ? Auth::user() : null;
+        $isAdmin = $this->GetIsAdmin();
+        return view("admin.pages.editreservation", compact("data", "user", "isAdmin"));
+    }
+
+    /**
+     * Update the specified reservation entry in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  $reservation->id
+     * @return \Illuminate\Http\Response
+     */
+    public function update($reservation, Request $request)
+    {
+        $isAdmin = $this->GetIsAdmin();
+        if($isAdmin === true){
+            $data = reservation::findOrFail($reservation);
+
+            $data->name = $request->name;
+            $data->phone_number = $request->phone;
+            $data->date = $request->date;
+            $data->time = $request->time;
+            $data->person = $request->person;
+
+            $data->save();
+
+            return redirect()->route('reservation.index')->with('msg', 'Reservation entry edited');
+        }
+        return redirect()->route('reservation.index')->with('msg', "Can't edit reservation entry" );
+    }
 }

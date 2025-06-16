@@ -37,7 +37,7 @@ Route::resource('user', UserController::class)->only([
 
 /* Reservation */
 Route::resource('reservation', ReservationController::class)->only([
-    'index','store'
+    'index','store','edit','update'
 ]);
 
 /* Food Menu */
