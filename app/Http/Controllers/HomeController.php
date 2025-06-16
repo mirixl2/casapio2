@@ -16,12 +16,12 @@ class HomeController extends Controller
      *
      */
     private $navdata = [
-        ["text" => "home", "href" => "#home"],
-        ["text" => "about", "href" => "#about"],
-        ["text" => "menu", "href" => "#menu"],        
-        ["text" => "testimonial", "href" => "#testimonial"],
-        ["text" => "book", "href" => "#book"],
-        ["text" => "contact", "href" => "#contact"],
+        ["text" => "inicio", "href" => "#home"],
+        ["text" => "sobre", "href" => "#about"],
+        ["text" => "menú", "href" => "#menu"],
+        ["text" => "opiniones", "href" => "#testimonial"],
+        ["text" => "reservar", "href" => "#book"],
+        ["text" => "contacto", "href" => "#contact"],
     ];
 
     /**

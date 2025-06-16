@@ -18,7 +18,7 @@
               <p class="mt-4 text-[14px] font-sans-lato text-slate-600 leading-relaxed">{{ $data['desc'] }}</p>
               <p class="mt-4 font-bold font-cursive-merie text-2xl text-amber-400 ">${{ $data['price'] }}</p>
               <a href="#book">
-                <p class="mt-4 inline-block rounded-sm shadow px-3 py-3 uppercase font-sans-monts text-xs font-bold text-slate-900 transition ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-transparent ">book a table <span><i class="fa fa-long-arrow-right"></i></span></p>
+                <p class="mt-4 inline-block rounded-sm shadow px-3 py-3 uppercase font-sans-monts text-xs font-bold text-slate-900 transition ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-transparent ">reservar mesa <span><i class="fa fa-long-arrow-right"></i></span></p>
               </a>
             </div>
           </div>
