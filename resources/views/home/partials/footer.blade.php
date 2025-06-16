@@ -2,7 +2,7 @@
 	<footer id="contact" class="footer-area bg-slate-800 text-white font-sans-lato">
 	  <div class="flex flex-wrap footer-widget justify-between p-3 py-14 max-w-[960px] mx-auto section-padding">
 	    <div class="basis-[300px] grow shrink p-5 pr-9 single-widget single-widget1">
-	      <a href="/"><img class="w-36 h-auto" src="assets/images/logo/logo2.png" alt="" /></a>
+              <a href="/"><img class="w-36 h-auto" src="/{{ \App\Models\Setting::where('key','site_logo')->value('value') }}" alt="" /></a>
 	      <p class="mt-3 leading-normal">
 	        Which morning fourth great won't is to fly bearing
 	        man. Called unto shall seed, deep, herb set seed

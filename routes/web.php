@@ -9,6 +9,7 @@ use App\Http\Controllers\FoodMenuController;
 use App\Http\Controllers\DailyMenuController;
 use App\Http\Controllers\SpecialDishController;
 use App\Http\Controllers\TestimonialController;
+use App\Http\Controllers\SettingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -60,6 +61,12 @@ Route::resource('specialdishes', SpecialDishController::class)->only([
 Route::resource('testimonial', TestimonialController::class)->only([
     'index', 'create', 'store', 'edit', 'update', 'destroy'
 ]);
+
+/* Settings */
+Route::controller(SettingController::class)->group(function () {
+    Route::get('/admin/settings', 'edit')->name('settings.edit');
+    Route::put('/admin/settings', 'update')->name('settings.update');
+});
 
 /* jetstream auth */
 Route::middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified'])->group(function () {

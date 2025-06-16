@@ -4,16 +4,16 @@
 >
   <div class="navbar-brand-wrapper d-flex align-items-center">
     <a href="{{ route('admin.index') }}">
-      <img src="assets/images/logo/logo2.png" alt="logo" class="logo-dark w-32" />
+      <img src="/{{ \App\Models\Setting::where('key','site_logo')->value('value') }}" alt="logo" class="logo-dark w-32" />
     </a>
   </div>
   <div class="navbar-menu-wrapper d-flex align-items-center flex-grow-1">
     <h5 class="mb-0 font-weight-medium d-none d-lg-flex">
-      Welcome to foodfun admin dashboard!
+      Welcome to {{ \App\Models\Setting::where('key','site_name')->value('value') }} admin dashboard!
     </h5>
     <ul class="navbar-nav navbar-nav-right ml-auto">
       <li>
-        <a href="{{ route('index') }}" class="bedge-primary bg-amber-500 font-bold p-2.5 rounded text-white" target="_blank">Browse foodfun site</a>
+        <a href="{{ route('index') }}" class="bedge-primary bg-amber-500 font-bold p-2.5 rounded text-white" target="_blank">Browse {{ \App\Models\Setting::where('key','site_name')->value('value') }} site</a>
       </li>
       <li class="nav-item dropdown d-none d-xl-inline-flex user-dropdown">
         <a
